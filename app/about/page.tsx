@@ -16,7 +16,7 @@ export default function About() {
       <div className="mb-8">
         <a
           href="/content/konstantinos_kalaitzidis_cv.pdf"
-          download
+          download="konstantinos_kalaitzidis_cv.pdf"
           className="inline-block px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600"
         >
           Download My CV
