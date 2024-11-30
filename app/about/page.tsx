@@ -11,6 +11,45 @@ export default function About() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
+      <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" className="text-blue-500 underline">GitHub</a></p>
+
+      <div className="mb-8">
+        <a
+          href="/content/konstantinos_kalaitzidis_cv.pdf"
+          download
+          className="inline-block px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600"
+        >
+          Download My CV
+        </a>
+      </div>
+    
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold">Work Experience</h2>
+        <ul className="list-disc list-inside">
+          <li>
+        <strong>Software Engineer at XYZ Corp</strong> (Jan 2020 - Present)
+        <p>Developed and maintained web applications using React and Node.js.</p>
+          </li>
+          <li>
+        <strong>Frontend Developer at ABC Inc</strong> (Jun 2017 - Dec 2019)
+        <p>Worked on improving the user interface and user experience of the company's main product.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold">Study Experience</h2>
+        <ul className="list-disc list-inside">
+          <li>
+        <strong>Bachelor of Science in Computer Science</strong> - University of Example (2013 - 2017)
+        <p>Graduated with honors, focusing on software development and algorithms.</p>
+          </li>
+          <li>
+        <strong>Master of Science in Software Engineering</strong> - Example University (2018 - 2020)
+        <p>Specialized in web technologies and cloud computing.</p>
+          </li>
+        </ul>
+      </div>
       {/* <ImageGrid
         columns={3}
         images={[

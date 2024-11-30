@@ -39,21 +39,18 @@ export default function Page() {
         </p>
         <p>
           Want to tell me something? {" "}
-          <a 
-            target="_blank"
-            href="contact page link">
+            <a href="/contact">
             Contact
-          </a>
+            </a>
         </p>
-        <p>
+        {/* <p>
           What I'm working on now: {" "} 
-          {/* past or current research */}
           <a
             target="_blank"
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio">
+            href="">
             Now page
           </a>
-        </p>
+        </p> */}
       </div>
     </section>
   );
