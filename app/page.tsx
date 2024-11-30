@@ -17,13 +17,13 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Hey, I'm Kostas 👋🏼
+        Greetings, stranger 👋🏼
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
+        {/* <p>
           AI for Health 🤖 🩻
-        </p>
+        </p> */}
         <p>
         I have a MSc degree in {" "}
           <a
