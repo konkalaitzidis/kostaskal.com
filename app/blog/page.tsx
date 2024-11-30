@@ -12,7 +12,8 @@ export default function BlogPosts() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Blog</h1>
-      <div>
+      <p>Hold tight! In progess...</p>
+      {/* <div>
         {allBlogs
           .sort((a, b) => {
             if (
@@ -39,7 +40,7 @@ export default function BlogPosts() {
               </div>
             </Link>
           ))}
-      </div>
+      </div> */}
     </section>
   );
 }

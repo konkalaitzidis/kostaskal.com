@@ -10,46 +10,57 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
-      <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" className="text-blue-500 underline">GitHub</a></p>
+      <div className="mb-8">
+        <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
+        <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" className="text-blue-500 underline">GitHub</a></p>
+      </div>
 
       <div className="mb-8">
-        <a
-          href="/content/konstantinos_kalaitzidis_cv.pdf"
-          download="konstantinos_kalaitzidis_cv.pdf"
-          className="inline-block px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600"
-        >
-          Download My CV
-        </a>
+        {/* <div className="mb-8">
+          <a
+            href="/content/konstantinos_kalaitzidis_cv.pdf"
+            download="konstantinos_kalaitzidis_cv.pdf"
+            className="inline-block px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600"
+          >
+            Download My CV
+          </a>
+        </div> */}
+
+        <p>
+          I'm an educated machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in creating innovative ML pipelines for solving medical problems. 
+        </p>
       </div>
     
       <div className="mb-8">
-        <h2 className="text-xl font-semibold">Work Experience</h2>
+        <h2 className="text-xl font-semibold">Professional Experience</h2>
         <ul className="list-disc list-inside">
           <li>
-        <strong>Software Engineer at XYZ Corp</strong> (Jan 2020 - Present)
-        <p>Developed and maintained web applications using React and Node.js.</p>
-          </li>
-          <li>
-        <strong>Frontend Developer at ABC Inc</strong> (Jun 2017 - Dec 2019)
-        <p>Worked on improving the user interface and user experience of the company's main product.</p>
+        <strong>ML Research Intern at Dept. of Neuroscience, Karolinska Institutet</strong> (Feb 2022 - Jul 2023)
+        {/* <p>Developed the Behaviour Prediction Neural Network (BPNN), a deep learning toolkit, to interpret animal behaviour
+        during cognitive experiments</p> */}
           </li>
         </ul>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl font-semibold">Study Experience</h2>
+        <h2 className="text-xl font-semibold">Education</h2>
         <ul className="list-disc list-inside">
           <li>
-        <strong>Bachelor of Science in Computer Science</strong> - University of Example (2013 - 2017)
-        <p>Graduated with honors, focusing on software development and algorithms.</p>
+        <strong>MMSc & MSc in Health Informatics</strong> - Karolinska Institute (2021 - 2023)
           </li>
           <li>
-        <strong>Master of Science in Software Engineering</strong> - Example University (2018 - 2020)
-        <p>Specialized in web technologies and cloud computing.</p>
+        <strong>Exchange Studies</strong> - University College Dublin (UCD) (2018 - 2019)
+          </li>
+          <li>
+        <strong>BASc in Computer Science and Engineering</strong> - University of Thessaly (2016 - 2021)
           </li>
         </ul>
       </div>
+
+      <div className="mb-8">
+        <p>Want to tell me something? <a href="/contact" className="text-blue-500 underline">Contact</a></p>
+      </div>
+
       {/* <ImageGrid
         columns={3}
         images={[

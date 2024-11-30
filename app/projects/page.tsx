@@ -11,7 +11,8 @@ export default function Projects() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
-      <div className="space-y-6">
+      <p>Hold tight! In progess...</p>
+      {/* <div className="space-y-6">
         {projects.map((project, index) => (
           <a
             key={index}
@@ -35,7 +36,7 @@ export default function Projects() {
             </div>
           </a>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }
