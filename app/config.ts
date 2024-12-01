@@ -1,10 +1,10 @@
 export const metaData = {
   baseUrl: "https://nextfolio-template.vercel.app/",
-  title: "Kostas Kalaitzidis",
-  name: "kostas-kalaitzidis",
+  title: "KostasKalaitzidis.io",
+  name: "Kostas Kalaitzidis",
   ogImage: "/me_KI.png",
   description:
-    "The personal website of Kostas Kalaitzidis. AI for Health."
+    "The personal website of Kostas Kalaitzidis"
 };
 
 export const socialLinks = {

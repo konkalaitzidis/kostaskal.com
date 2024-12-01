@@ -12,7 +12,7 @@ export default function About() {
     <section>
       <div className="mb-8">
         <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
-        <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" className="text-blue-500 underline">GitHub</a></p>
+        <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" target="_blank" className="text-blue-500 underline" style={{ color: "#0077b5", fontWeight: "bold"}}>GitHub</a> 🔗.</p>
       </div>
 
       <div className="mb-8">
@@ -58,7 +58,7 @@ export default function About() {
       </div>
 
       <div className="mb-8">
-        <p>Want to tell me something? <a href="/contact" className="text-blue-500 underline">Contact</a></p>
+        <p>Want to tell me something? <a href="/contact" className="text-blue-500 underline" style={{ color: "#0077b5", fontWeight: "bold"}}>Contact</a></p>
       </div>
 
       {/* <ImageGrid

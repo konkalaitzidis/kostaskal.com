@@ -17,13 +17,13 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Greetings, stranger 👋🏼
+        Hi 👋🏼, Kostas here.
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
-        {/* <p>
-          AI for Health 🤖 🩻
-        </p> */}
+        <p>
+          I'm a Machine Learning Engineer 🤖 🩻
+        </p>
         <p>
         I have a MSc degree in {" "}
           <a
@@ -39,7 +39,7 @@ export default function Page() {
         </p>
         <p>
           Want to tell me something? {" "}
-            <a href="/contact">
+            <a href="/contact" style={{ color: "#0077b5", fontWeight: "bold"}}>
             Contact
             </a>
         </p>
