@@ -1,6 +1,8 @@
-# Nextfolio
+# Personal Website
 
-A clean, fast, and lightweight portfolio template built with [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [Tailwind CSS](https://tailwindcss.com/) for optimal performance.
+Based on Nextfolio, built with the [Next.js] framework and deployed with Vercel.  
+
+<!-- A clean, fast, and lightweight portfolio template built with [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [Tailwind CSS](https://tailwindcss.com/) for optimal performance.
 
 Deploy your Nextfolio site with Vercel in minutes.
 
@@ -59,4 +61,4 @@ Contributions are welcome! To get involved, just push your code to the repo. Whe
 
 ## Licence
 
-Nextfolio is open-source and released under the MIT License.
+Nextfolio is open-source and released under the MIT License. -->
