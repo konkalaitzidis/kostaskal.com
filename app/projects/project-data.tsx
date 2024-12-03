@@ -7,19 +7,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Stereotactic Radiosurgery Brain Prognostic Index (SRSBPI)",
+    year: 2024,
+    description:
+      "SRSBPI is a novel brain prognostic index for lung cancer patients with brain metastases, aiding in therapeutic strategies.",
+    url: "https://github.com/konkalaitzidis/Stereotactic-Radiosurgery-Brain-Prognostic-Index",
+  },
+  {
+    title: "Behaviour Prediction Neural Network (BPNN) toolkit",
     year: 2023,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "The BPNN is a neurobehavioural analysis deep learning tool developed at the Meletis Lab, Karolinska Institutet, as part of my Master Thesis titled 'Direct Behaviour Prediction from Miniscope Calcium Imaging Using Convolutional Neural Networks.'",
+    url: "https://github.com/konkalaitzidis/bpnn",
   },
-  // {
-  //   title: "Project Two",
-  //   year: 2022,
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-  //   url: "https://example.com/",
-  // },
   // {
   //   title: "Project Three",
   //   year: 2021,
