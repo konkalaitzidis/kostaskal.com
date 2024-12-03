@@ -7,7 +7,7 @@ export default function Page() {
       {/* Open Graph Tags */}
       <meta property="og:title" content="Kostas Kalaitzidis - Machine Learning Engineer" />
       <meta property="og:description" content="Passionate about leveraging the latest advancements in AI for impact-driven research in life sciences." />
-      <meta property="og:image" content="https://kostaskal.com/home-preview-image.jpg" />
+      <meta property="og:image" content="https://kostaskal.com/me_KI.png" />
       <meta property="og:url" content="https://kostaskal.com" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Kostas Kalaitzidis" />
