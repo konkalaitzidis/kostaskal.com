@@ -20,7 +20,7 @@ export default function About() {
           <p>
             You can view my CV here:{" "}
             <a
-              href="/content/konstantinos_kalaitzidis_cv.pdf"
+              href="/konstantinos_kalaitzidis_cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 underline"
