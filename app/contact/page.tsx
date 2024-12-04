@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Want to talk?</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Contact</h1>
       <div className="prose prose-neutral dark:prose-invert">
       <p>
         Reach out to me via email at <span style={{ color: "#0077b5"}}> kon.kalaitzidis-at-gmail.com </span>or connect with me on {" "} 

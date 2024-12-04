@@ -11,17 +11,32 @@ export default function About() {
   return (
     <section>
       <div className="mb-8">
-        <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>        
+        <h1 className="mb-8 text-2xl font-medium tracking-tight">AI for Health 🤖 🩻</h1>        
         <p>
-          I'm an educated machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in creating innovative ML pipelines for solving medical problems. 
+          I'm an educated machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in solving health challenges with AI. 
         </p>
+        
+        <div className="mt-4">
+          <p>
+            You can view my CV here:{" "}
+            <a
+              href="/content/konstantinos_kalaitzidis_cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+              style={{ color: "#0077b5", fontWeight: "bold" }}
+            >
+              Download
+            </a>
+          </p>
+        </div>
       </div>
-    
+
       <div className="mb-8">
         <h2 className="text-xl font-semibold">Professional Experience</h2>
         <ul className="list-disc list-inside">
           <li>
-        <strong>ML Research Intern at Karolinska Institutet</strong> (Feb 2022 - Jul 2023)
+        <strong>Machine Learning Intern at Karolinska Institutet</strong> (Feb 2022 - Jul 2023)
           </li>
         </ul>
         <ul className="list-disc list-inside">
@@ -48,7 +63,7 @@ export default function About() {
 
       <div className="mb-8">
         <p>Want to tell me something? <a href="/contact" className="text-blue-500 underline" style={{ color: "#0077b5", fontWeight: "bold"}}>Contact</a></p>
-        <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" target="_blank" className="text-blue-500 underline" style={{ color: "#0077b5", fontWeight: "bold"}}>GitHub</a> 🔗.</p>
+        <p>To see what I'm working on now check my <a href="https://github.com/konkalaitzidis" target="_blank" className="text-blue-500 underline" style={{ color: "#0077b5", fontWeight: "bold"}}>GitHub</a>.</p>
       </div>
 
       {/* <ImageGrid

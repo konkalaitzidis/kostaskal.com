@@ -9,6 +9,7 @@ export const metaData = {
 
 export const socialLinks = {
   twitter: "",
+  googlescholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=Pg7WjLMAAAAJ",
   github: "https://github.com/konkalaitzidis",
   instagram: "",
   linkedin: "https://www.linkedin.com/in/konstantinoskalaitzidis",

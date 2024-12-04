@@ -17,7 +17,8 @@ export default function Page() {
           <Image
             src="/me_KI.png"
             alt="Profile photo"
-            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5" 
+            // grayscale hover:grayscale-0
             unoptimized
             width={160}
             height={160}
@@ -30,7 +31,7 @@ export default function Page() {
 
         <div className="prose prose-neutral dark:prose-invert">
           <p>
-            I'm a Machine Learning Engineer 🤖 🩻
+            I'm a Machine Learning Engineer
           </p>
           <p>
             I have a MSc degree in {" "}
