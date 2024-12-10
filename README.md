@@ -1,4 +1,4 @@
-# KostasKal.com 🌐  
+# kostaskal.com 🌐  
 
 Welcome to the repository for my personal website, [kostaskal.com](https://www.kostaskal.com). This website serves as my digital portfolio, showcasing my professional journey, projects, and interests in data science and AI for health. It is based on Nextfolio, built with the Next.js framework and deployed with Vercel.  
 
