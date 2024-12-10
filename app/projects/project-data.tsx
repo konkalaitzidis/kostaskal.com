@@ -10,7 +10,7 @@ export const projects: Project[] = [
     title: "Stereotactic Radiosurgery Brain Prognostic Index (SRSBPI)",
     year: 2024,
     description:
-      "SRSBPI is a novel brain prognostic index for lung cancer patients with brain metastases, aiding in therapeutic strategies.",
+      "SRSBPI is a novel brain prognostic index for lung cancer patients with brain metastases, aiding in therapeutic strategies. Developed for the Department of Oncology-Pathology, Karolinska Institutet/Thoracic Oncology Center, Karolinska University Hospital.",
     url: "https://srs-bpi.org/",
   },
   {
