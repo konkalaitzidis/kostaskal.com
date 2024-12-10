@@ -2,6 +2,73 @@
 
 Based on Nextfolio, built with the Next.js framework and deployed with Vercel.  
 
+# KostasKal.com 🌐  
+
+Welcome to the repository for my personal website, [KostasKal.com](https://www.kostaskal.com)! This website serves as my digital portfolio, showcasing my professional journey, projects, and interests in data science and AI for health. 
+
+---
+
+## 🔍 About the Website  
+
+- **URL**: [www.kostaskal.com](https://www.kostaskal.com)  
+- **Purpose**:  
+  - To share my professional background, skills, and projects.  
+  - To publish articles and insights on topics such as AI, health tech, and personal development.  
+  - To provide a central hub for networking and collaboration opportunities.  
+
+- **Design Inspiration**:  
+  - Based on the minimalist design of [Nextfolio template](https://nextfolio-template.vercel.app/).  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**:  
+  - HTML5  
+  - CSS3  
+  - JavaScript  
+
+- **Hosting**:  
+  - [Vercel](https://vercel.com) (for seamless deployment and CI/CD).  
+  - Domain purchased from [Namecheap](https://www.namecheap.com).  
+
+- **Deployment**:  
+  - Automatically deployed to Vercel from this GitHub repository. 
+
+---
+
+## 🚀 Features  
+
+- Minimalist and responsive design.  
+- Informative sections about my professional experience, projects, and skills (to be enriched in the future).
+- Blog-style articles on AI, machine learning, and personal interests (to be added in the future).
+- Fast-loading and mobile-friendly.  
+
+---
+
+## ✨ Future Enhancements  
+
+- Adding interactive features like a contact form, in page link previews, and blog page.  
+- Adding new content.  
+- Incorporating analytics for better user insights.  
+
+---
+
+## 👤 Author  
+
+**Konstantinos Kalaitzidis**  
+- [GitHub](https://github.com/konkalaitzidis)  
+- [LinkedIn](https://linkedin.com/in/konstantinoskalaitzidis)  
+- [Website](https://www.kostaskal.com)  
+
+---
+
+## 📜 License  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+If something isn't working properly on the website or if you have encountered any other issue, please let me know!  
+
 <!-- A clean, fast, and lightweight portfolio template built with [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [Tailwind CSS](https://tailwindcss.com/) for optimal performance.
 
 Deploy your Nextfolio site with Vercel in minutes.
