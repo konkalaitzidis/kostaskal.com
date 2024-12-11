@@ -4,7 +4,7 @@ Welcome to the repository for my personal website, [kostaskal.com](https://www.k
 
 ---
 
-## 🔍 About the Website  
+## About the Website  
 
 - **URL**: [www.kostaskal.com](https://www.kostaskal.com)  
 - **Purpose**:  
@@ -17,7 +17,7 @@ Welcome to the repository for my personal website, [kostaskal.com](https://www.k
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 - **Frontend**:  
   - HTML5  
@@ -33,7 +33,7 @@ Welcome to the repository for my personal website, [kostaskal.com](https://www.k
 
 ---
 
-## 🚀 Features  
+## Features  
 
 - Minimalist and responsive design.  
 - Informative sections about my professional experience, projects, and skills (to be enriched in the future).
@@ -50,7 +50,7 @@ Welcome to the repository for my personal website, [kostaskal.com](https://www.k
 
 ---
 
-## 👤 Author  
+## Author  
 
 **Konstantinos Kalaitzidis**  
 - [GitHub](https://github.com/konkalaitzidis)  
@@ -59,11 +59,11 @@ Welcome to the repository for my personal website, [kostaskal.com](https://www.k
 
 ---
 
-## 📜 License  
+## License  
 
 This project is licensed under the [MIT License](LICENSE).  
 
-If something isn't working properly on the website or if you have encountered any other issue, please let me know!  
+If something isn't working properly on the website or if you have encountered any other issues, please let me know!  
 
 <!-- A clean, fast, and lightweight portfolio template built with [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [Tailwind CSS](https://tailwindcss.com/) for optimal performance.
 
