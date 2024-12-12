@@ -18,7 +18,7 @@ export const projects: Project[] = [
     year: 2023,
     description:
       "The BPNN is a neurobehavioural analysis deep learning tool developed at the Meletis Lab, Karolinska Institutet, as part of my Master Thesis titled 'Direct Behaviour Prediction from Miniscope Calcium Imaging Using Convolutional Neural Networks.'",
-    url: "https://github.com/konkalaitzidis/bpnn",
+    url: "/bpnn",
   },
   // {
   //   title: "Project Three",
