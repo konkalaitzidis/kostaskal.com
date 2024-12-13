@@ -64,13 +64,13 @@ export default function Thesis() {
       <div className="prose prose-neutral dark:prose-invert mb-8">
         <h2>Abstract</h2>
         <p>
-          <strong>Background:</strong> Neurodegenerative diseases, including Parkinson's, continue to affect millions worldwide, driving neuroscience research to develop effective and personalized treatments. Researchers use neuroimaging techniques like calcium imaging in disease-relevant animal models to link neural activity with behavior.
+          <strong>Background:</strong> Neurodegenerative diseases, including Parkinson's, affect millions worldwide, driving neuroscience research to develop effective and personalised treatments. Techniques like calcium imaging are used to link neural activity with behaviour in animal models, but they often face challenges such as complex workflows often limited to extracting cell body information without directly inferring any behavioural correlates.
         </p>
         <p>
-          <strong>Aim:</strong> This thesis investigates the potential application of advanced deep learning techniques, such as convolutional neural networks, in improving calcium imaging analysis by reducing pre-processing requirements and directly arriving at behavioral correlations from animal neural activity.
+          <strong>Aim:</strong> To address these challenges, this Thesis employs CNNs to simplify calcium imaging analysis and directly infer behavioural correlates.
         </p>
         <p>
-          <strong>Methods:</strong> Previously collected calcium imaging datasets from behavioral assays of freely moving animals were repurposed and used to train a CNN-based tool called the BPNN (Behavioral Prediction Neural Network). The performance of the BPNN was compared and evaluated with current state-of-the-art methods applied in neuroscience research.
+          <strong>Methods:</strong> Previously collected calcium imaging datasets from behavioural assays were repurposed to train the BPNN, a CNN-based tool. Its performance was compared with existing methods in neuroscience research.
         </p>
         
         <div className="mb-8">
@@ -103,7 +103,7 @@ export default function Thesis() {
             </p>
         </div>
         <p>
-          <strong>Results:</strong> Several experiments were performed to evaluate the BPNN's capacity to predict behavior compared to current methods. Despite issues related to overfitting, the BPNN produced similar or better results in predicting animal behavior, with an F1-score of 0.56 compared to the F1-score of 0.41 of an existing calcium imaging analysis tool concerning the same biological task.
+          <strong>Results:</strong> Despite challenges like overfitting, which may have been caused by technical discrepancies or other biological artefacts produced during the calcium imaging recording sessions, the BPNN demonstrated competitive performance in predicting animal behaviour, achieving an F1-score of 0.56 compared to 0.41 from an existing tool.
         </p>
         <div className="mb-8">
         <a href="/photos/results.png" target="_blank" rel="noopener noreferrer">
@@ -124,7 +124,7 @@ export default function Thesis() {
             </p>
         </div>
         <p>
-          <strong>Conclusion:</strong> The best-performing configuration of the BPNN model demonstrated a limited yet plausible ability to establish links between neural activity and specific animal behaviors, indicating the potential applicability of CNNs in behavior prediction assignments. Further research is required to address current technical and biological limitations to reaffirm the postulations of this study.
+          <strong>Conclusion:</strong> The BPNN model shows promise in linking neural activity with behaviour. However, further research is required to address current technical and biological limitations to reaffirm the postulations of this study.
         </p>
       </div>
       
