@@ -1,3 +1,34 @@
+import Script from 'next/script';
+
+const GA_TRACKING_ID = 'GTM-N3F59665'; // Replace with your Measurement ID
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      {/* Load Google Analytics script */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      {/* Initialize Google Analytics */}
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `,
+        }}
+      />
+      <Component {...pageProps} />
+    </>
+  );
+}
+
+
 import Image from "next/image";
 import { socialLinks } from "./config";
 

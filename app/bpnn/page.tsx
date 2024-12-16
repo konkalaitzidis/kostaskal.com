@@ -1,3 +1,15 @@
+import { useEffect } from "react";
+
+// useEffect(() => {
+//   const script = document.createElement("script");
+//   script.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+//   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+//   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+//   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+//   })(window,document,'script','dataLayer','GTM-N3F59665');`;
+//   document.head.appendChild(script);
+// }, []);
+
 import React from "react";
 import type { Metadata } from "next";
 
@@ -9,7 +21,6 @@ export const metadata: Metadata = {
 export default function Thesis() {
   return (
     <section className="px-4 py-8 mx-auto max-w-4xl">
-  
       <h1 className="mb-8 text-3xl font-bold tracking-tight">The Behavioural Prediction Neural Network (BPNN) toolkit</h1>
        {/* Cover Photo */}
       <div className="mb-8">
