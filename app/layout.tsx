@@ -11,6 +11,7 @@ import { metaData } from "./config";
 import Script from 'next/script'
 import React from "react";
 
+
 export const metadata: Metadata = {
   metadataBase: new URL(metaData.baseUrl),
   title: {

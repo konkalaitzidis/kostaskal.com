@@ -1,6 +1,6 @@
 export const metaData = {
   baseUrl: "https://www.kostaskal.com/",
-  title: "Kostas Kalaitzidis",
+  title: "Kostas Kalaitzidis ⌂",
   name: "Kostas Kalaitzidis",
   ogImage: "/me_KI.png",
   description:

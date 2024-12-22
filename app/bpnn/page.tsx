@@ -41,7 +41,7 @@ export default function Thesis() {
       </div>
 
       {/* Links */}
-      <div className="mb-8">
+      <div className="mb-8 flex space-x-4">
         <a
           href="https://github.com/konkalaitzidis/bpnn"
           target="_blank"
@@ -54,7 +54,7 @@ export default function Thesis() {
           href="/konstantinos_kalaitzidis_MSc_thesis.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-4 py-2 ml-4 text-white bg-gray-600 hover:bg-gray-700 rounded-md font-medium"
+          className="inline-block px-4 py-2 text-white bg-gray-600 hover:bg-gray-700 rounded-md font-medium"
         >
           View Full Thesis
         </a>

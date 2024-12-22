@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 // import { ImageGrid } from "app/components/image-grid";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About/CV",
   description: "About me",
 };
 
@@ -11,24 +11,21 @@ export default function About() {
   return (
     <section>
       <div className="mb-8">
-        <h1 className="mb-8 text-2xl font-medium tracking-tight">AI for Health 🤖 🩻</h1>        
+        <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
+        <h2 className="mb-4 text-1xl font-medium tracking-tight">AI for Health 🤖 🩻</h2>  
         <p>
           I'm an educated machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in solving health challenges with AI. 
         </p>
         
         <div className="mt-4">
-          <p>
-            You can view my CV here:{" "}
-            <a
-              href="/konstantinos_kalaitzidis_cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 underline"
-              style={{ color: "#0077b5", fontWeight: "bold" }}
-            >
-              Download
-            </a>
-          </p>
+          <a
+            href="/konstantinos_kalaitzidis_cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md font-medium"
+          >
+            Download my CV
+          </a>
         </div>
       </div>
 
