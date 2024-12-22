@@ -73,15 +73,15 @@ export default function Thesis() {
           <strong>Methods:</strong> Previously collected calcium imaging datasets from behavioural assays were repurposed to train the BPNN, a CNN-based tool. Its performance was compared with existing methods in neuroscience research.
         </p>
         
-        <div className="mb-8">
-          <a href="/photos/BPNN_workflow.png" target="_blank" rel="noopener noreferrer">
+        {/* <div className="mb-8"> */}
+          {/* <a href="/photos/BPNN_workflow.png" target="_blank" rel="noopener noreferrer">
             <img
               src="/photos/BPNN_workflow.png"
               alt="Methods Visual"
               className="w-full rounded-md shadow-md"
             />
-          </a>
-            <p className="text-sm text-gray-500 mt-2 text-center">
+          </a> */}
+            {/* <p className="text-sm text-gray-500 mt-2 text-center">
             Illustration of the BPNN within a proposed behavioural analysis workflow.</p>
             <p className="text-sm text-gray-500 mt-2">
             <br />
@@ -100,8 +100,8 @@ export default function Thesis() {
             5. Split of the dataset into training and validation parts. The model is trained on the train set and evaluated on the validation set.
             <br />
             6. The BPNN produces an output in the form of a confusion matrix to demonstrate its ability to predict true labels from the dataset.
-            </p>
-        </div>
+            </p> */}
+        {/* </div> */}
         <p>
           <strong>Results:</strong> Despite challenges like overfitting, which may have been caused by technical discrepancies or other biological artefacts produced during the calcium imaging recording sessions, the BPNN demonstrated competitive performance in predicting animal behaviour, achieving an F1-score of 0.56 compared to 0.41 from an existing tool.
         </p>
