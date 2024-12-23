@@ -14,7 +14,7 @@ export default function About() {
         <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
         <h2 className="mb-4 text-1xl font-medium tracking-tight">AI for Health 🤖 🩻</h2>  
         <p>
-          I'm an educated machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in solving health challenges with AI. 
+          I'm a machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in solving health challenges with AI. 
         </p>
         
         <div className="mt-4">
