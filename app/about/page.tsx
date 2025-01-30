@@ -12,10 +12,7 @@ export default function About() {
     <section>
       <div className="mb-8">
         <h1 className="mb-8 text-2xl font-medium tracking-tight">About</h1>
-        <h2 className="mb-4 text-1xl font-medium tracking-tight">AI for Health 🤖 🩻</h2>  
-        <p>
-          I'm a machine learning engineer with a background in Health Informatics and Computer Science. My interests lie in solving health challenges with AI. 
-        </p>
+        <h2 className="mb-4 text-1xl font-medium tracking-tight"> My interests lie in solving health challenges with AI. 🤖 🩻 </h2>  
         
         <div className="mt-4">
           <a
@@ -30,32 +27,40 @@ export default function About() {
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl font-semibold">Professional Experience</h2>
+        <h2 className="text-xl">Professional Experience</h2>
         <ul className="list-disc list-inside">
           <li>
-        <strong>Machine Learning Intern at Karolinska Institutet</strong> (Feb 2022 - Jul 2023)
+            Machine Learning Intern at Karolinska Institutet (Feb 2022 - Jul 2023)
           </li>
         </ul>
         <ul className="list-disc list-inside">
           <li>
-        <strong>Data Intern at Kry</strong> (Jun 2022 - Aug 2022)
-        </li>
+            Data Intern at Kry (Jun 2022 - Aug 2022)
+          </li>
         </ul>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl font-semibold">Education</h2>
+        <h2 className="text-xl">Education</h2>
         <ul className="list-disc list-inside">
           <li>
-        <strong>MMSc & MSc in Health Informatics</strong> - Karolinska Institute (2021 - 2023)
+            MMSc & MSc in Health Informatics - Karolinska Institute (2021 - 2023)
           </li>
           <li>
-        <strong>Exchange Studies</strong> - University College Dublin (UCD) (2018 - 2019)
+            Exchange Studies - University College Dublin (UCD) (2018 - 2019)
           </li>
           <li>
-        <strong>BASc in Computer Science and Engineering</strong> - University of Thessaly (2016 - 2021)
+            BASc in Computer Science and Engineering - University of Thessaly (2016 - 2021)
           </li>
         </ul>
+      </div>
+
+      <div className="mb-8">
+        <h2 className="mb-4 text-1xl font-medium tracking-tight"> What I'm doing now:</h2>  
+        <p>Article <a href="https://www.annalsofoncology.org/article/S0923-7534(24)02935-1/fulltext" target="_blank" className="text-blue-500 underline" style={{ color: "#0077b5"}}>"The Stereotactic Radiosurgery-Brain Prognostic Index (SRS-BPI): A novel prognostic index for lung cancer patients with brain metastases eligible for SRS</a></p>
+        <p>Attending course "<a href="https://github.com/konkalaitzidis" target="_blank" className="text-blue-500 underline" style={{ color: "#0077b5"}}>Applied Artificial Intelligence (AI) in Healthcare</a>" at Karolinska Institutet - 15 Credits</p>
+        <p>Attending course "<a href="https://www.kth.se/student/kurser/kurs/CB207V?l=en" target="_blank" className="text-blue-500 underline" style={{ color: "#0077b5"}}>Computational Analyses of mRNA-seq, ChIP-seq and ATAC-seq"</a> at KTH Royal Institute of Technology - 7.5 Credits</p>
+        <p></p>
       </div>
 
       <div className="mb-8">

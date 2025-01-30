@@ -46,6 +46,7 @@ export default function Page() {
     Ex-TEDx Curator with a history of cross-disciplinary collaboration in fast-paced, multicultural settings.
     Completed mandatory military service. */}
           </p>
+          <p>Based in Stockholm, Sweden.</p>
           <p>
             Want to tell me something? {" "}
             <a href="/contact" style={{ color: "#0077b5", fontWeight: "bold" }}>
