@@ -33,7 +33,8 @@ export default function Thesis() {
         </p>
       </div>
 
-      <div className="mb-8">
+      <div className="prose prose-neutral dark:prose-invert mb-8">
+      <h2>Objective</h2> 
         <p>
         To uncover neural dynamics underlying behavior we developed a Convolutional Neural Network (CNN) to analyze behavioral and neural imaging data 
         collected from cognitive experiments with mice. To read the full Thesis or view the code repository, please follow the links below.
