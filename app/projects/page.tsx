@@ -42,7 +42,7 @@ export default function Projects() {
                   href={project.url_2}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 text-white bg-gray-600 hover:bg-gray-700 rounded-md font-medium"
+                  className="inline-block px-4 py-2 text-white bg-gray-800 hover:bg-gray-900 rounded-md font-medium"
                 >
                   {project.button_2_description}
                 </a>
@@ -51,7 +51,7 @@ export default function Projects() {
                 <a
                   // href={project.tags}
                   // target="_blank"
-                    className="inline-block px-2 py-1 text-xs text-white bg-gray-900 rounded-full"
+                    className="inline-block px-2 py-1 text-xs text-white bg-gray-400 rounded-md"
                     >
                   {project.tags}
                 </a>
