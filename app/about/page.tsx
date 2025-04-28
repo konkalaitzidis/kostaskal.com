@@ -21,7 +21,7 @@ export default function About() {
             rel="noopener noreferrer"
             className="inline-block px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md font-medium"
           >
-            Download my CV
+            View my CV
           </a>
         </div>
       </div>
@@ -30,12 +30,22 @@ export default function About() {
         <h2 className="text-xl">Professional Experience</h2>
         <ul className="list-disc list-inside">
           <li>
-            Machine Learning Intern at Karolinska Institutet (Feb 2022 - Jul 2023)
+            Research Assistant at Karolinska Institutet, Dept. of Global Public Health (Apr '25 - present)
           </li>
         </ul>
         <ul className="list-disc list-inside">
           <li>
-            Data Intern at Kry (Jun 2022 - Aug 2022)
+          IT Team Lead – Informatics Office, Hellenic Armed Forces (Sep '23 - Jun '24)
+          </li>
+        </ul>
+        <ul className="list-disc list-inside">
+          <li>
+            Machine Learning Intern at Karolinska Institutet (Feb '22 - Jul '23)
+          </li>
+        </ul>
+        <ul className="list-disc list-inside">
+          <li>
+            Data Intern at Kry (Jun '22 - Aug '22)
           </li>
         </ul>
       </div>
