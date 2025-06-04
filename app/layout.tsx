@@ -91,8 +91,6 @@ export default function RootLayout({
           />
         </head>
         <body className="antialiased flex flex-col items-center justify-center mx-auto mt-2 lg:mt-8 mb-20 lg:mb-40">
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3F59665"
-          height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
