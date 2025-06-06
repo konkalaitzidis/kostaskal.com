@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="prose prose-neutral dark:prose-invert">
       <p>
         Reach out to me via email at <span style={{ color: "#0077b5"}}> kon.kalaitzidis-at-gmail.com </span>or connect with me on {" "} 
-        <a href="https://www.linkedin.com/in/konstantinoskalaitzidis" target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontWeight: "bold"}}>
+        <a href="https://www.linkedin.com/in/kostaskalaitzidis/" target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontWeight: "bold"}}>
           LinkedIn<span style={{ marginLeft: "4px" }}></span>
         </a>🔗.
       </p>

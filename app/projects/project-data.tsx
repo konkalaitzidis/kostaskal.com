@@ -2,7 +2,7 @@ export interface Project {
   title: string;
   year: number;
   description: string;
-  url_1: string;
+  url_1?: string;
   url_2: string;
   button_1_description?: string;
   button_2_description?: string;
@@ -10,6 +10,16 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+
+  {
+    title: "CPR-AI: Clinical Pathway Recommender AI",
+    year: 2025,
+    description:
+      "CPR-AI is a machine learning-based system for recommending clinical procedures based on patient demographics and conditions. The system uses a Random Forest model trained on clinical data to predict the most appropriate next procedure for a patient.",
+    url_2: "https://github.com/konkalaitzidis/cpr-ai",
+    button_2_description: "View GitHub Repository",
+    tags: "Machine Learning, Streamlit, Python",
+  },
   {
     title: "Stereotactic Radiosurgery Brain Prognostic Index (SRSBPI)",
     year: 2024,
@@ -31,12 +41,5 @@ export const projects: Project[] = [
     button_1_description: "View BPNN Toolkit",
     button_2_description: "View GitHub Repository",
     tags: "Python, TensorFlow, Keras",
-  },
-  // {
-  //   title: "Project Three",
-  //   year: 2021,
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-  //   url_1: "https://example.com/",
-  // },
+  }
 ];

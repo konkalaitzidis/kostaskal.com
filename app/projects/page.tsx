@@ -30,22 +30,26 @@ export default function Projects() {
               </p>
               <div className="pt-4"></div>
                 <div className="mb-4 flex space-x-2">
-                <a
-                  href={project.url_1}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md font-medium"
-                >
-                  {project.button_1_description}
-                </a>
-                <a
-                  href={project.url_2}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 text-white bg-gray-800 hover:bg-gray-900 rounded-md font-medium"
-                >
-                  {project.button_2_description}
-                </a>
+                {project.url_1 && project.button_1_description && (
+                  <a
+                    href={project.url_1}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md font-medium"
+                  >
+                    {project.button_1_description}
+                  </a>
+                )}
+                {project.url_2 && project.button_2_description && (
+                  <a
+                    href={project.url_2}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 text-white bg-gray-800 hover:bg-gray-900 rounded-md font-medium"
+                  >
+                    {project.button_2_description}
+                  </a>
+                )}
               </div> 
               <div className="flex flex-wrap space-x-1">
                 <a
