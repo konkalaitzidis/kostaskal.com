@@ -3,9 +3,11 @@ export interface Project {
   year: number;
   description: string;
   url_1?: string;
-  url_2: string;
+  url_2?: string;
+  url_3?: string;
   button_1_description?: string;
   button_2_description?: string;
+  button_3_description?: string;
   tags: any;
 }
 
@@ -17,7 +19,8 @@ export const projects: Project[] = [
     description:
       "CPR-AI is a machine learning-based system for recommending clinical procedures based on patient demographics and conditions. The system uses a Random Forest model trained on clinical data to predict the most appropriate next procedure for a patient.",
     url_2: "https://github.com/konkalaitzidis/cpr-ai",
-    button_2_description: "View GitHub Repository",
+    url_3: "",
+    button_2_description: "GitHub Repository",
     tags: "Machine Learning, Streamlit, Python",
   },
   {
@@ -27,8 +30,10 @@ export const projects: Project[] = [
       "SRSBPI is a novel brain prognostic index for lung cancer patients with brain metastases, aiding in therapeutic strategies. Developed for the Department of Oncology-Pathology, Karolinska Institutet/Thoracic Oncology Center, Karolinska University Hospital.",
     url_1: "https://srs-bpi.org/",
     url_2: "https://github.com/konkalaitzidis/srsbpi",
+    url_3: "https://www.sciencedirect.com/science/article/pii/S0010482525011412?via%3Dihub",
     button_1_description: "View SRSBPI",
-    button_2_description: "View GitHub Repository",
+    button_2_description: "GitHub Repository",
+    button_3_description: "Publication (2025)",
     tags: "HTML/CSS, JavaScript",
   },
   {
@@ -39,7 +44,8 @@ export const projects: Project[] = [
     url_1: "/bpnn",
     url_2: "https://github.com/konkalaitzidis/bpnn",
     button_1_description: "View BPNN Toolkit",
-    button_2_description: "View GitHub Repository",
+    button_2_description: "GitHub Repository",
+    url_3: "",
     tags: "Python, TensorFlow, Keras",
   }
 ];

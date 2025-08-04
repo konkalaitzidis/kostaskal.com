@@ -2,6 +2,19 @@ import React from "react";
 import type { Metadata } from "next";
 import { projects } from "./project-data";
 
+export interface Project {
+  title: string;
+  year: number;
+  description: string;
+  url_1?: string;
+  url_2: string;
+  url_3: string;
+  button_1_description?: string;
+  button_2_description?: string;
+  button_3_description?: string;
+  tags: any;
+}
+
 export const metadata: Metadata = {
   title: "Research Projects",
   description: "My Projects",
@@ -10,7 +23,7 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Research Projects</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Research Projects & Publications</h1>
       {/* <p>Hold tight! In progess...</p> */}
 
       <div className="space-y-6">
@@ -48,6 +61,16 @@ export default function Projects() {
                     className="inline-block px-4 py-2 text-white bg-gray-800 hover:bg-gray-900 rounded-md font-medium"
                   >
                     {project.button_2_description}
+                  </a>
+                )}
+                {project.url_3 && project.button_3_description && (
+                  <a
+                    href={project.url_2}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 text-white bg-orange-600 hover:bg-orange-700 rounded-md font-medium"
+                  >
+                    {project.button_3_description}
                   </a>
                 )}
               </div> 

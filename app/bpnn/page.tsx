@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Thesis() {
   return (
     
-    <section className="px-8 py-8 mx-auto max-w-4xl">
+    <section className="px-4 py-8 mx-auto max-w-4xl">
       <h1 className="mb-8 text-3xl font-bold tracking-tight">The Behavioural Prediction Neural Network (BPNN) toolkit</h1>
        {/* Cover Photo */}
       <div className="mb-8">

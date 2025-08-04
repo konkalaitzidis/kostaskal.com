@@ -1,6 +1,19 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
 
+export interface Project {
+  title: string;
+  year: number;
+  description: string;
+  url_1?: string;
+  url_2: string;
+  url_3: string;
+  button_1_description?: string;
+  button_2_description?: string;
+  button_3_description?: string;
+  tags: any;
+}
+
 export default function Page() {
   return (
     <>
@@ -46,7 +59,10 @@ export default function Page() {
     Ex-TEDx Curator with a history of cross-disciplinary collaboration in fast-paced, multicultural settings.
     Completed mandatory military service. */}
           </p>
-          <p>Based in Stockholm, Sweden.</p>
+          <p>Based in Stockholm, Sweden 🇸🇪</p>
+
+          <p>Latest Publication: </p>
+
           <p>
             Want to tell me something? {" "}
             <a href="/contact" style={{ color: "#0077b5", fontWeight: "bold" }}>
