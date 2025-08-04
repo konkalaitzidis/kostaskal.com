@@ -7,7 +7,7 @@ export interface Project {
   description: string;
   url_1?: string;
   url_2: string;
-  url_3: string;
+  url_3?: string;
   button_1_description?: string;
   button_2_description?: string;
   button_3_description?: string;
@@ -60,9 +60,15 @@ export default function Page() {
     Completed mandatory military service. */}
           </p>
           <p>Based in Stockholm, Sweden 🇸🇪</p>
-
-          <p>Latest Publication: </p>
-
+          <a
+          href="https://www.sciencedirect.com/science/article/pii/S0010482525011412"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nline-block px-4 py-2 text-white bg-orange-600 hover:bg-orange-700 rounded-md font-medium"
+            style={{ textDecoration: "none", color: "white" }}
+            >
+            View Latest Publication
+          </a>
           <p>
             Want to tell me something? {" "}
             <a href="/contact" style={{ color: "#0077b5", fontWeight: "bold" }}>

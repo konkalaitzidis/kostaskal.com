@@ -19,7 +19,6 @@ export const projects: Project[] = [
     description:
       "CPR-AI is a machine learning-based system for recommending clinical procedures based on patient demographics and conditions. The system uses a Random Forest model trained on clinical data to predict the most appropriate next procedure for a patient.",
     url_2: "https://github.com/konkalaitzidis/cpr-ai",
-    url_3: "",
     button_2_description: "GitHub Repository",
     tags: "Machine Learning, Streamlit, Python",
   },
@@ -45,7 +44,6 @@ export const projects: Project[] = [
     url_2: "https://github.com/konkalaitzidis/bpnn",
     button_1_description: "View BPNN Toolkit",
     button_2_description: "GitHub Repository",
-    url_3: "",
     tags: "Python, TensorFlow, Keras",
   }
 ];
