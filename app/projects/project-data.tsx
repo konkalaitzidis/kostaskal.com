@@ -27,12 +27,12 @@ export const projects: Project[] = [
     year: 2024,
     description:
       "SRSBPI is a novel brain prognostic index for lung cancer patients with brain metastases, aiding in therapeutic strategies. Developed for the Department of Oncology-Pathology, Karolinska Institutet/Thoracic Oncology Center, Karolinska University Hospital.",
-    url_1: "https://srs-bpi.org/",
-    url_2: "https://github.com/konkalaitzidis/srsbpi",
-    url_3: "https://www.sciencedirect.com/science/article/pii/S0010482525011412?via%3Dihub",
     button_1_description: "View SRSBPI",
+    url_1: "https://srs-bpi.org/",
     button_2_description: "GitHub Repository",
+    url_2: "https://github.com/konkalaitzidis/srsbpi",
     button_3_description: "Publication (2025)",
+    url_3: "https://www.sciencedirect.com/science/article/pii/S0010482525011412?via%3Dihub",
     tags: "HTML/CSS, JavaScript",
   },
   {

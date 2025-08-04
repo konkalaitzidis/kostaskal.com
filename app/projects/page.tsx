@@ -65,7 +65,7 @@ export default function Projects() {
                 )}
                 {project.url_3 && project.button_3_description && (
                   <a
-                    href={project.url_2}
+                    href={project.url_3}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-4 py-2 text-white bg-orange-600 hover:bg-orange-700 rounded-md font-medium"
