@@ -14,6 +14,15 @@ export interface Project {
 export const projects: Project[] = [
 
   {
+    title: "BioMotion: Motion Recognition App",
+    year: 2025,
+    description:
+      "A real-time activity recognition pipeline leveraging machine learning to classify motion data and estimate MET (Metabolic Equivalent of Task) values. Built with a React Native front-end and a Python backend, the system streams accelerometer data, preprocesses it in sliding windows, and posts it to a trained model endpoint for inference. Results are displayed live, enabling continuous energy expenditure monitoring.",
+    url_2: "https://github.com/konkalaitzidis/digital-health-app",
+    button_2_description: "GitHub Repository",
+    tags: "Machine Learning, React Native, FastAPI, Python",
+  },
+  {
     title: "CPR-AI: Clinical Pathway Recommender AI",
     year: 2025,
     description:
