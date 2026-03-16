@@ -1,3 +1,4 @@
+// app/feed/[format]/route.ts
 import { Feed } from "feed";
 import { getBlogPosts } from "app/lib/posts";
 import { metaData } from "app/config";
@@ -11,11 +12,14 @@ export async function generateStaticParams() {
   ];
 }
 
+// 1. Change the context type to Promise<{ format: string }>
 export async function GET(
   _: Request,
-  { params }: { params: { format: string } }
+  { params }: { params: Promise<{ format: string }> }
 ) {
-  const { format } = params;
+  // 2. Await the params before destructuring
+  const { format } = await params;
+  
   const validFormats = ["rss.xml", "atom.xml", "feed.json"];
 
   if (!validFormats.includes(format)) {
@@ -25,6 +29,7 @@ export async function GET(
     );
   }
 
+  // ... (rest of your logic remains the same)
   const BaseUrl = metaData.baseUrl.endsWith("/")
     ? metaData.baseUrl
     : `${metaData.baseUrl}/`;
@@ -34,9 +39,7 @@ export async function GET(
     description: metaData.description,
     id: BaseUrl,
     link: BaseUrl,
-    copyright: `All rights reserved ${new Date().getFullYear()}, ${
-      metaData.title
-    }`,
+    copyright: `All rights reserved ${new Date().getFullYear()}, ${metaData.title}`,
     generator: "Feed for Node.js",
     feedLinks: {
       json: `${BaseUrl}feed.json`,
@@ -66,12 +69,11 @@ export async function GET(
     });
   });
 
-  const responseMap: Record<string, { content: string; contentType: string }> =
-    {
-      "rss.xml": { content: feed.rss2(), contentType: "application/xml" },
-      "atom.xml": { content: feed.atom1(), contentType: "application/xml" },
-      "feed.json": { content: feed.json1(), contentType: "application/json" },
-    };
+  const responseMap: Record<string, { content: string; contentType: string }> = {
+    "rss.xml": { content: feed.rss2(), contentType: "application/xml" },
+    "atom.xml": { content: feed.atom1(), contentType: "application/xml" },
+    "feed.json": { content: feed.json1(), contentType: "application/json" },
+  };
 
   const response = responseMap[format];
 
