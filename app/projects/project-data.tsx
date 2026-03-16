@@ -14,13 +14,13 @@ export interface Project {
 export const projects: Project[] = [
 
   {
-    title: "BioMotion: Motion Recognition App",
-    year: 2025,
+    title: "DeepRepurpose: A Spatial Biology-Informed and Deep Learning-Driven Drug Repurposing Framework.",
+    year: 2026,
     description:
-      "A real-time activity recognition pipeline leveraging machine learning to classify motion data and estimate MET (Metabolic Equivalent of Task) values. Built with a React Native front-end and a Python backend, the system streams accelerometer data, preprocesses it in sliding windows, and posts it to a trained model endpoint for inference. Results are displayed live, enabling continuous energy expenditure monitoring.",
-    url_2: "https://github.com/konkalaitzidis/digital-health-app",
-    button_2_description: "GitHub Repository",
-    tags: "Machine Learning, React Native, FastAPI, Python",
+      "While current top-tier models aim to model drug responses on gene regulatory networks, they are restricted to non-spatial single-cell data. DeepRepurpose aims to extend these insights into the spatial domain. By utilizing Merck’s advanced pipeline compounds for validation, DeepRepurpose aims to achieve an industry-validated drug repurposing framework.",
+    url_2: "https://drive.google.com/file/d/1y3L6oubC7Yc3EtatQgOod89nwaWB-MWB/view",
+    button_2_description: "View Poster",
+    tags: "PyTorch, CUDA, Scanpy, Python",
   },
   {
     title: "CPR-AI: Clinical Pathway Recommender AI",

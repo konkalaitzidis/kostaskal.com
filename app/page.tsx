@@ -44,7 +44,7 @@ export default function Page() {
 
         <div className="prose prose-neutral dark:prose-invert">
           <p>
-            I'm a Machine Learning Engineer
+            I'm a Machine Learning Engineer.
           </p>
           <p>
             I have a MSc degree in {" "}

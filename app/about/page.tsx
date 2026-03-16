@@ -27,25 +27,10 @@ export default function About() {
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl">Professional Experience</h2>
+        <h2 className="text-xl">Experience</h2>
         <ul className="list-disc list-inside">
           <li>
-            Research Assistant at Karolinska Institutet, Dept. of Global Public Health (Apr '25 - present)
-          </li>
-        </ul>
-        <ul className="list-disc list-inside">
-          <li>
-          IT Team Lead – Informatics Office, Hellenic Armed Forces (Sep '23 - Jun '24)
-          </li>
-        </ul>
-        <ul className="list-disc list-inside">
-          <li>
-            Machine Learning Intern at Karolinska Institutet (Feb '22 - Jul '23)
-          </li>
-        </ul>
-        <ul className="list-disc list-inside">
-          <li>
-            Data Intern at Kry (Jun '22 - Aug '22)
+            Industrial PhD Candidate at Merck Group and Stockholm Univeristy (November 2025 - Present)
           </li>
         </ul>
       </div>
