@@ -128,6 +128,12 @@ export function CustomMDX(props) {
         mdxOptions: {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          /* FIX: Adding security flags required by v6.0.0+
+             We set blockJS to false to allow MDX logic, 
+             but keep blockDangerousJS true (default) to prevent RCE.
+          */
+          blockJS: false,
+          blockDangerousJS: true,
         },
       }}
     />
